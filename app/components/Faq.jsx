@@ -3,12 +3,12 @@ import React from "react";
 const Faq = () => {
   return (
     <div>
-      <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+      <div className="bg-slate-100/50 max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto mt-5">
         <div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
-          <h2 className="text-2xl font-bold md:text-4xl md:leading-tight dark:text-white">
+          <h2 className="text-2xl font-bold md:text-4xl md:leading-tight ">
                 Frequently Asked Questions
           </h2>
-          <p className="mt-1 text-gray-600 dark:text-gray-400">
+          <p className="mt-1 text-gray-600 ">
             Answers to the most frequently asked questions.
           </p>
         </div>
@@ -16,11 +16,11 @@ const Faq = () => {
         <div className="max-w-2xl mx-auto">
           <div className="hs-accordion-group">
             <div
-              className="hs-accordion hs-accordion-active:bg-gray-100 rounded-xl p-6 dark:hs-accordion-active:bg-white/[.05] active"
+              className="hs-accordion hs-accordion-active:bg-gray-100 rounded-xl p-6  active"
               id="hs-basic-with-title-and-arrow-stretched-heading-one"
             >
               <button
-                className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 "
+                className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500  "
                 aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-one"
               >
                 Can I cancel at anytime?
@@ -39,7 +39,7 @@ const Faq = () => {
                   <path d="m6 9 6 6 6-6" />
                 </svg>
                 <svg
-                  className="hs-accordion-active:block hidden flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
+                  className="hs-accordion-active:block hidden flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 "
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
                   height="24"
@@ -58,7 +58,7 @@ const Faq = () => {
                 className="hs-accordion-content w-full overflow-hidden transition-[height] duration-300"
                 aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-one"
               >
-                <p className="text-gray-800 dark:text-gray-200">
+                <p className="text-gray-800 ">
                   Yes, you can cancel anytime no questions are asked while you
                   cancel but we would highly appreciate if you will give us some
                   feedback.
@@ -67,16 +67,16 @@ const Faq = () => {
             </div>
 
             <div
-              className="hs-accordion hs-accordion-active:bg-gray-100 rounded-xl p-6 dark:hs-accordion-active:bg-white/[.05]"
+              className="hs-accordion hs-accordion-active:bg-gray-100 rounded-xl p-6 "
               id="hs-basic-with-title-and-arrow-stretched-heading-two"
             >
               <button
-                className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400"
+                className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 "
                 aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-two"
               >
                 My team has credits. How do we use them?
                 <svg
-                  className="hs-accordion-active:hidden block flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
+                  className="hs-accordion-active:hidden block flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 "
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
                   height="24"
@@ -90,7 +90,7 @@ const Faq = () => {
                   <path d="m6 9 6 6 6-6" />
                 </svg>
                 <svg
-                  className="hs-accordion-active:block hidden flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
+                  className="hs-accordion-active:block hidden flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 "
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
                   height="24"
@@ -109,7 +109,7 @@ const Faq = () => {
                 className="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
                 aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-two"
               >
-                <p className="text-gray-800 dark:text-gray-200">
+                <p className="text-gray-800 ">
                   Once your team signs up for a subscription plan. This is where
                   we sit down, grab a cup of coffee and dial in the details.
                 </p>
@@ -117,16 +117,16 @@ const Faq = () => {
             </div>
 
             <div
-              className="hs-accordion hs-accordion-active:bg-gray-100 rounded-xl p-6 dark:hs-accordion-active:bg-white/[.05]"
+              className="hs-accordion hs-accordion-active:bg-gray-100 rounded-xl p-6 "
               id="hs-basic-with-title-and-arrow-stretched-heading-three"
             >
               <button
-                className="hs-accordion-toggle  group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 "
+                className="hs-accordion-toggle  group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500  "
                 aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-three"
               >
                 How does Preline's pricing work?
                 <svg
-                  className="hs-accordion-active:hidden block flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
+                  className="hs-accordion-active:hidden block flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 "
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
                   height="24"
@@ -140,7 +140,7 @@ const Faq = () => {
                   <path d="m6 9 6 6 6-6" />
                 </svg>
                 <svg
-                  className="hs-accordion-active:block hidden flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
+                  className="hs-accordion-active:block hidden flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 "
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
                   height="24"
@@ -159,7 +159,7 @@ const Faq = () => {
                 className="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
                 aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-three"
               >
-                <p className="text-gray-800 dark:text-gray-200">
+                <p className="text-gray-800 ">
                   Our subscriptions are tiered. Understanding the task at hand
                   and ironing out the wrinkles is key.
                 </p>
@@ -167,16 +167,16 @@ const Faq = () => {
             </div>
 
             <div
-              className="hs-accordion hs-accordion-active:bg-gray-100 rounded-xl p-6 dark:hs-accordion-active:bg-white/[.05]"
+              className="hs-accordion hs-accordion-active:bg-gray-100 rounded-xl p-6 "
               id="hs-basic-with-title-and-arrow-stretched-heading-four"
             >
               <button
-                className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 "
+                className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500  "
                 aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-four"
               >
                 How secure is Preline?
                 <svg
-                  className="hs-accordion-active:hidden block flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
+                  className="hs-accordion-active:hidden block flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 "
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
                   height="24"
@@ -190,7 +190,7 @@ const Faq = () => {
                   <path d="m6 9 6 6 6-6" />
                 </svg>
                 <svg
-                  className="hs-accordion-active:block hidden flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
+                  className="hs-accordion-active:block hidden flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 "
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
                   height="24"
@@ -209,7 +209,7 @@ const Faq = () => {
                 className="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
                 aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-four"
               >
-                <p className="text-gray-800 dark:text-gray-200">
+                <p className="text-gray-800 ">
                   Protecting the data you trust to Preline is our first
                   priority. This part is really crucial in keeping the project
                   in line to completion.
@@ -218,16 +218,16 @@ const Faq = () => {
             </div>
 
             <div
-              className="hs-accordion hs-accordion-active:bg-gray-100 rounded-xl p-6 dark:hs-accordion-active:bg-white/[.05]"
+              className="hs-accordion hs-accordion-active:bg-gray-100 rounded-xl p-6 "
               id="hs-basic-with-title-and-arrow-stretched-heading-five"
             >
               <button
-                className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 "
+                className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 "
                 aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-five"
               >
                 How do I get access to a theme I purchased?
                 <svg
-                  className="hs-accordion-active:hidden block flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
+                  className="hs-accordion-active:hidden block flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 "
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
                   height="24"
@@ -241,7 +241,7 @@ const Faq = () => {
                   <path d="m6 9 6 6 6-6" />
                 </svg>
                 <svg
-                  className="hs-accordion-active:block hidden flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
+                  className="hs-accordion-active:block hidden flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 "
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
                   height="24"
@@ -260,7 +260,7 @@ const Faq = () => {
                 className="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
                 aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-five"
               >
-                <p className="text-gray-800 dark:text-gray-200">
+                <p className="text-gray-800 ">
                   If you lose the link for a theme you purchased, don't panic!
                   We've got you covered. You can login to your account, tap your
                   avatar in the upper right corner, and tap Purchases. If you
@@ -272,16 +272,16 @@ const Faq = () => {
             </div>
 
             <div
-              className="hs-accordion hs-accordion-active:bg-gray-100 rounded-xl p-6 dark:hs-accordion-active:bg-white/[.05]"
+              className="hs-accordion hs-accordion-active:bg-gray-100 rounded-xl p-6 "
               id="hs-basic-with-title-and-arrow-stretched-heading-six"
             >
               <button
-                className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 "
+                className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500  "
                 aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-six"
               >
                 Upgrade License Type
                 <svg
-                  className="hs-accordion-active:hidden block flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
+                  className="hs-accordion-active:hidden block flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 "
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
                   height="24"
@@ -295,7 +295,7 @@ const Faq = () => {
                   <path d="m6 9 6 6 6-6" />
                 </svg>
                 <svg
-                  className="hs-accordion-active:block hidden flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
+                  className="hs-accordion-active:block hidden flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 "
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
                   height="24"
@@ -314,7 +314,7 @@ const Faq = () => {
                 className="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
                 aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-six"
               >
-                <p className="text-gray-800 dark:text-gray-200">
+                <p className="text-gray-800 ">
                   There may be times when you need to upgrade your license from
                   the original type you purchased and we have a solution that
                   ensures you can apply your original purchase cost to the new
