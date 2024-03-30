@@ -6,7 +6,7 @@ const Hero = () => {
       <div className="relative overflow-hidden">
         <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-10">
           <div className="max-w-2xl text-center mx-auto">
-            <h1 className="block text-3xl font-bold text-gray-800 sm:text-4xl md:text-5xl dark:text-white">
+            <h1 className="block text-3xl font-bold text-gray-800 sm:text-4xl md:text-5xl ">
               Designed for you to get more{" "}
               <span className="text-red-600">simple</span>
             </h1>
@@ -38,17 +38,17 @@ const Hero = () => {
                   >
                     <polygon points="5 3 19 12 5 21 5 3" />
                   </svg>
-                  Play the overview
+                  Get Started
                 </a>
               </div>
             </div>
 
-            <div className="absolute bottom-12 -start-20 -z-[1] size-48 bg-gradient-to-b from-orange-500 to-white p-px rounded-lg dark:to-slate-900">
-              <div className="bg-white size-48 rounded-lg dark:bg-slate-900"></div>
+            <div className="absolute bottom-12 -start-20 -z-[1] size-48 bg-gradient-to-b from-orange-500 to-white p-px rounded-lg ">
+              <div className="bg-black/20 size-48 rounded-lg "></div>
             </div>
 
             <div className="absolute -top-12 -end-20 -z-[1] size-48 bg-gradient-to-t from-red-600 to-orange-400 p-px rounded-full">
-              <div className="bg-white size-48 rounded-full dark:bg-slate-900"></div>
+              <div className="bg-black/20 size-48 rounded-full "></div>
             </div>
           </div>
         </div>

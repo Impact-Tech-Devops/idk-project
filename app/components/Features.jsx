@@ -5,12 +5,12 @@ const Features = () => {
     <div>
          
       <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-      <h2 className="text-6xl text-center justify-center text-gray-800 font-bold sm:text-5xl dark:text-gray-200 mb-6 ">Our Services</h2> 
+      <h2 className="text-6xl text-center justify-center text-gray-800 font-bold sm:text-5xl ">Our Services</h2> 
         <div class="relative p-6 md:p-16">
        
           <div class="relative z-10 lg:grid lg:grid-cols-12 lg:gap-16 lg:items-center">
             <div class="mb-10 lg:mb-0 lg:col-span-6 lg:col-start-8 lg:order-2">
-              <h4 class="text-xl text-gray-800 font-bold sm:text-2xl dark:text-gray-200">
+              <h4 class="text-xl text-gray-800 font-bold sm:text-2xl ">
                 Fully customizable rules to match your unique needs
               </h4>
 
