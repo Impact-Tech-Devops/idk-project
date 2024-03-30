@@ -40,8 +40,5 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-For any inquiries or support, please contact [your-email@example.com](mailto:your-email@example.com).
+For any inquiries or support, please contact [Emmanuel](mailto:emmanuelakinyemi772@gmail.com).
 
----
-
-*Note: Replace `your-username` in the clone URL and update the email address in the contact section with appropriate information.*
