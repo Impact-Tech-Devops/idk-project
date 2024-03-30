@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# IDK (INTEGRAL DEVELOPMENT KONSULT)
+
+## Introduction
+
+IDK (Integral Development Konsult) is a project aimed at providing comprehensive development solutions. Built with Next.js, Preline, Tailwind CSS, and a touch of Laravel, IDK offers a robust platform for various development needs.
+
+## Features
+
+- **Next.js Integration**: Utilizes the powerful Next.js framework for server-side rendering and React-based frontend development.
+- **Preline Support**: Incorporates Preline for efficient code formatting and linting, ensuring code quality and readability.
+- **Tailwind CSS Styling**: Employs Tailwind CSS for rapid UI development, offering a customizable and utility-first CSS framework.
+- **Laravel Backend**: Integrates Laravel for backend functionalities, providing a versatile and secure backend environment.
 
 ## Getting Started
 
-First, run the development server:
+To get started with IDK, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Clone the repository: `git clone https://github.com/your-username/idk-project.git`
+2. Install dependencies: `npm install`
+3. Start the development server: `npm run dev`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Usage
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+1. Develop frontend components using Next.js and Tailwind CSS.
+2. Utilize Laravel for backend functionalities and API development.
+3. Ensure code quality and formatting with Preline.
+4. Customize and extend features as per project requirements.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Screenshot
 
-## Learn More
+![IDK Website Screenshot](placeholder-screenshot.png)
 
-To learn more about Next.js, take a look at the following resources:
+## Contributing
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Contributions are welcome! Feel free to fork the repository and submit pull requests for any enhancements or bug fixes.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## License
 
-## Deploy on Vercel
+This project is licensed under the [MIT License](LICENSE).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contact
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+For any inquiries or support, please contact [your-email@example.com](mailto:your-email@example.com).
+
+---
+
+*Note: Replace `your-username` in the clone URL and update the email address in the contact section with appropriate information.*
