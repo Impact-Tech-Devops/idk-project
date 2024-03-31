@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import logo from '../assets/favicon.png';
 
 const Header = () => {
   return (
@@ -16,7 +17,7 @@ const Header = () => {
               href="/"
               aria-label="IDK | Intergral Development Konsult"
             >
-              IDK
+              <img src="/images/favicon.ico" className="w-auto h-10" alt="idk"/>
             </Link>
             <div className="sm:hidden">
               <button

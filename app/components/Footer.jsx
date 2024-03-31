@@ -9,7 +9,10 @@ const Footer = () => {
     
     <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6">
       <div className="col-span-full lg:col-span-1">
-        <a className="flex-none text-xl font-semibold text-white dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="#" aria-label="Brand">IDK</a>
+        <a className="flex-none text-xl font-semibold text-white dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="/" aria-label="IDK | INTEGRAL DEVELOPMENT KONSULT">
+        <img src="/images/favicon.ico" className="w-auto h-10" alt="idk"/>
+
+        </a>
       </div>
       
 
@@ -17,9 +20,9 @@ const Footer = () => {
         <h4 className="font-semibold text-gray-100">Product</h4>
 
         <div className="mt-3 grid space-y-3">
-          <p><a className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="#">Pricing</a></p>
-          <p><a className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="#">Changelog</a></p>
-          <p><a className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="#">Docs</a></p>
+          <p><a className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="#">Trainings</a></p>
+          <p><a className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="#">Coaching</a></p>
+          <p><a className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="#">Workspace</a></p>
         </div>
       </div>
       
@@ -29,18 +32,19 @@ const Footer = () => {
 
         <div className="mt-3 grid space-y-3">
           <p><a className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="#">About us</a></p>
-          <p><a className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="#">Blog</a></p>
-          <p><a className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="#">Careers</a> <span className="inline ms-1 text-xs bg-red-700 text-white py-1 px-2 rounded-lg">We're hiring</span></p>
-          <p><a className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="#">Customers</a></p>
+          <p><a className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="#">Services</a></p>
+          <p><a className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="#">Contact Us</a> </p>
+          <p><a className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="#">Terms and Condition</a></p>
+          <p><a className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="#">Privacy Policy</a></p>
         </div>
       </div>
       
 
       <div className="col-span-2">
-        <h4 className="font-semibold text-gray-100">Stay up to date</h4>
+        <h4 className="font-semibold text-gray-100">Subcribe to Our Newsletter</h4>
 
         <form>
-          <div className="mt-4 flex flex-col items-center gap-2 sm:flex-row sm:gap-3 bg-white rounded-lg p-2 dark:bg-gray-800">
+          <div className="mt-4 flex flex-col items-center gap-2 sm:flex-row sm:gap-3 bg-gray-500 rounded-lg p-2 ">
             <div className="w-full">
               <label for="hero-input" className="sr-only">Search</label>
               <input type="text" id="hero-input" name="hero-input" className="py-3 px-4 block w-full border-transparent rounded-lg text-sm focus:border-red-500 focus:ring-red-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-transparent dark:text-gray-400 dark:focus:ring-gray-600" placeholder="Enter your email"/>
@@ -49,9 +53,6 @@ const Footer = () => {
               Subscribe
             </a>
           </div>
-          <p className="mt-3 text-sm text-gray-400">
-            New UI kits or big discounts. Never spam.
-          </p>
         </form>
       </div>
       
