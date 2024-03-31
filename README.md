@@ -15,7 +15,7 @@ IDK (Integral Development Konsult) is a project aimed at providing comprehensive
 
 To get started with IDK, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/idk-project.git`
+1. Clone the repository: `git clone https://github.com/Impact-Tech-Devops/idk-project.git`
 2. Install dependencies: `npm install`
 3. Start the development server: `npm run dev`
 
