@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div>
       {/*  HEADER */}
-      <header className="flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-gray-50 border-b border-gray-200 text-sm py-3 sm:py-0 shadow-lg ">
+      <header className="sticky top-0 z-50 flex flex-wrap sm:justify-start sm:flex-nowrap w-full bg-gray-50 border-b border-gray-200 text-sm py-3 sm:py-0 shadow-lg ">
         <nav
           className="relative max-w-7xl w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8"
           aria-label="Global"

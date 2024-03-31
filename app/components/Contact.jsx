@@ -6,7 +6,7 @@ const Contact = () => {
       <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
         <div className="max-w-xl mx-auto">
           <div className="text-center">
-            <h1 className="text-3xl font-bold text-gray-800 sm:text-4xl dark:text-white">
+            <h1 className="text-3xl font-bold text-gray-800 sm:text-4xl ">
               Contact us
             </h1>
             <p className="mt-1 text-gray-600 dark:text-gray-400">
@@ -15,19 +15,19 @@ const Contact = () => {
           </div>
         </div>
 
-        <div className="mt-12 max-w-lg mx-auto">
-          <div className="flex flex-col border rounded-xl p-4 sm:p-6 lg:p-8 dark:border-gray-700">
-            <h2 className="mb-8 text-xl font-semibold text-gray-800 dark:text-gray-200">
+        <div className="mt-12 max-w-lg mx-auto shadow-md">
+          <div className="flex flex-col border rounded-xl p-4 sm:p-6 lg:p-8 ">
+            <h2 className="mb-8 text-xl font-semibold text-gray-800 ">
               Fill in the form
             </h2>
 
-            <form>
+            <form className="">
               <div className="grid gap-4 lg:gap-6">
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 lg:gap-6">
                   <div>
                     <label
                       for="hs-firstname-contacts-1"
-                      className="block mb-2 text-sm text-gray-700 font-medium dark:text-white"
+                      className="block mb-2 text-sm text-gray-700 font-medium "
                     >
                       First Name
                     </label>
@@ -35,14 +35,14 @@ const Contact = () => {
                       type="text"
                       name="hs-firstname-contacts-1"
                       id="hs-firstname-contacts-1"
-                      className="py-3 px-4 block w-full border-gray-200 rounded-lg text-sm focus:border-red-500 focus:ring-red-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400 dark:focus:ring-gray-600"
+                      className="py-3 px-4 block w-full rounded-lg text-sm focus:border-red-500  disabled:opacity-50 disabled:pointer-events-none bg-slate-200 border-gray-900 text-gray-900 focus:ring-gray-600"
                     />
                   </div>
 
                   <div>
                     <label
                       for="hs-lastname-contacts-1"
-                      className="block mb-2 text-sm text-gray-700 font-medium dark:text-white"
+                      className="block mb-2 text-sm text-gray-700 font-medium "
                     >
                       Last Name
                     </label>
@@ -50,7 +50,7 @@ const Contact = () => {
                       type="text"
                       name="hs-lastname-contacts-1"
                       id="hs-lastname-contacts-1"
-                      className="py-3 px-4 block w-full border-gray-200 rounded-lg text-sm focus:border-red-500 focus:ring-red-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400 dark:focus:ring-gray-600"
+                      className="py-3 px-4 block w-full rounded-lg text-sm focus:border-red-500  disabled:opacity-50 disabled:pointer-events-none bg-slate-200 border-gray-900 text-gray-900 focus:ring-gray-600"
                     />
                   </div>
                 </div>
@@ -59,7 +59,7 @@ const Contact = () => {
                   <div>
                     <label
                       for="hs-email-contacts-1"
-                      className="block mb-2 text-sm text-gray-700 font-medium dark:text-white"
+                      className="block mb-2 text-sm text-gray-700 font-medium "
                     >
                       Email
                     </label>
@@ -68,14 +68,14 @@ const Contact = () => {
                       name="hs-email-contacts-1"
                       id="hs-email-contacts-1"
                       autocomplete="email"
-                      className="py-3 px-4 block w-full border-gray-200 rounded-lg text-sm focus:border-red-500 focus:ring-red-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400 dark:focus:ring-gray-600"
+                      className="py-3 px-4 block w-full rounded-lg text-sm focus:border-red-500 disabled:opacity-50 disabled:pointer-events-none bg-slate-200 border-gray-900 text-gray-900 focus:ring-gray-600"
                     />
                   </div>
 
                   <div>
                     <label
                       for="hs-phone-number-1"
-                      className="block mb-2 text-sm text-gray-700 font-medium dark:text-white"
+                      className="block mb-2 text-sm text-gray-700 font-medium "
                     >
                       Phone Number
                     </label>
@@ -83,7 +83,7 @@ const Contact = () => {
                       type="text"
                       name="hs-phone-number-1"
                       id="hs-phone-number-1"
-                      className="py-3 px-4 block w-full border-gray-200 rounded-lg text-sm focus:border-red-500 focus:ring-red-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400 dark:focus:ring-gray-600"
+                      className="py-3 px-4 block w-full rounded-lg text-sm focus:border-red-500  disabled:opacity-50 disabled:pointer-events-none bg-slate-200 border-gray-900 text-gray-900 focus:ring-gray-600"
                     />
                   </div>
                 </div>
@@ -91,7 +91,7 @@ const Contact = () => {
                 <div>
                   <label
                     for="hs-about-contacts-1"
-                    className="block mb-2 text-sm text-gray-700 font-medium dark:text-white"
+                    className="block mb-2 text-sm text-gray-700 font-medium "
                   >
                     Details
                   </label>
@@ -99,7 +99,7 @@ const Contact = () => {
                     id="hs-about-contacts-1"
                     name="hs-about-contacts-1"
                     rows="4"
-                    className="py-3 px-4 block w-full border-gray-200 rounded-lg text-sm focus:border-red-500 focus:ring-red-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400 dark:focus:ring-gray-600"
+                    className="py-3 px-4 block w-full rounded-lg text-sm   disabled:pointer-events-none bg-slate-200 border-gray-900 text-gray-900 focus:ring-gray-600"
                   ></textarea>
                 </div>
               </div>
