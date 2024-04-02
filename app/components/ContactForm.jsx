@@ -1,4 +1,4 @@
-import React from "react";
+"use client";
 
 const Contact = () => {
   return (
@@ -26,7 +26,7 @@ const Contact = () => {
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 lg:gap-6">
                   <div>
                     <label
-                      for="hs-firstname-contacts-1"
+                      htmlFor="hs-firstname-contacts-1"
                       className="block mb-2 text-sm text-gray-700 font-medium "
                     >
                       First Name
@@ -41,7 +41,7 @@ const Contact = () => {
 
                   <div>
                     <label
-                      for="hs-lastname-contacts-1"
+                      htmlFor="hs-lastname-contacts-1"
                       className="block mb-2 text-sm text-gray-700 font-medium "
                     >
                       Last Name
@@ -58,7 +58,7 @@ const Contact = () => {
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 lg:gap-6">
                   <div>
                     <label
-                      for="hs-email-contacts-1"
+                      htmlFor="hs-email-contacts-1"
                       className="block mb-2 text-sm text-gray-700 font-medium "
                     >
                       Email
@@ -67,14 +67,14 @@ const Contact = () => {
                       type="email"
                       name="hs-email-contacts-1"
                       id="hs-email-contacts-1"
-                      autocomplete="email"
+                      autoComplete="email"
                       className="py-3 px-4 block w-full rounded-lg text-sm focus:border-red-500 disabled:opacity-50 disabled:pointer-events-none bg-slate-200 border-gray-900 text-gray-900 focus:ring-gray-600"
                     />
                   </div>
 
                   <div>
                     <label
-                      for="hs-phone-number-1"
+                      htmlFor="hs-phone-number-1"
                       className="block mb-2 text-sm text-gray-700 font-medium "
                     >
                       Phone Number
@@ -90,7 +90,7 @@ const Contact = () => {
 
                 <div>
                   <label
-                    for="hs-about-contacts-1"
+                    htmlFor="hs-about-contacts-1"
                     className="block mb-2 text-sm text-gray-700 font-medium "
                   >
                     Details

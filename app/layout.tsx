@@ -1,9 +1,9 @@
-import { Inter } from "next/font/google";
+// import { Inter } from "next/font/google";
 import "./globals.css";
 import PrelineScript from "./components/PrelineScript";
 import React from "react";
 
-const inter = Inter({ subsets: ["latin"] });
+// const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "IDK | INTEGRAL DEVELOPMENT KONSULT",
@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       {/* <link rel="icon" href="/favicon.ico" sizes="any" /> */}
-      <body className={inter.className}>
+      <body>
         {children}
         <PrelineScript />
       </body>

@@ -5,7 +5,8 @@ import ContactForm from "../components/ContactForm";
 
 import ContactHero from "../components/ContactHero";
 
-const Contact = () => {
+
+const Page = () => {
   return (
     <div>
       <Header />
@@ -19,4 +20,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Page;

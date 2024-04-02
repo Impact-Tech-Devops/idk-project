@@ -1,4 +1,6 @@
-import React from "react";
+"use client";
+
+import Link from "next/link";
 
 const ContactHero = () => {
   return (
@@ -20,13 +22,13 @@ const ContactHero = () => {
           </div>
 
           <div className="mt-8 gap-3 flex justify-center">
-            <a
+            <Link
               className="inline-flex justify-center items-center gap-x-3 text-center bg-gradient-to-tl from-red-600 to-orange-600 hover:from-orange-600 hover:to-red-600 border border-transparent text-white text-sm font-medium rounded-full focus:outline-none focus:ring-2 focus:ring-red-600 focus:ring-offset-2 focus:ring-offset-white py-3 px-4 dark:focus:ring-offset-gray-800"
               href="#"
             >
               
             Get Started
-            </a>
+            </Link>
           </div>
         </div>
       </div>

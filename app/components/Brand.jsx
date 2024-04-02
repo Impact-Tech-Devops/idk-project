@@ -1,18 +1,18 @@
-import React from "react";
+"use client";
 
 const Brand = () => {
   return (
     <div>
-      <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-        <div class="w-2/3 sm:w-1/2 lg:w-1/3 mx-auto text-center mb-6">
-          <h2 class="text-gray-800">
+      <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+        <div className="w-2/3 sm:w-1/2 lg:w-1/3 mx-auto text-center mb-6">
+          <h2 className="text-gray-800">
             Our Trusted Partners
           </h2>
         </div>
 
-        <div class="flex justify-center gap-x-6 sm:gap-x-12 lg:gap-x-24">
+        <div className="flex justify-center gap-x-6 sm:gap-x-12 lg:gap-x-24">
           <svg
-            class="py-3 lg:py-5 w-16 h-auto md:w-20 lg:w-24 mx-auto sm:mx-0 text-gray-500"
+            className="py-3 lg:py-5 w-16 h-auto md:w-20 lg:w-24 mx-auto sm:mx-0 text-gray-500"
             enableBackground="new 0 0 2499 614"
             viewBox="0 0 2499 614"
             xmlns="http://www.w3.org/2000/svg"
@@ -24,7 +24,7 @@ const Brand = () => {
           </svg>
 
           <svg
-            class="py-3 lg:py-5 w-16 h-auto md:w-20 lg:w-24 mx-auto sm:mx-0 text-gray-500"
+            className="py-3 lg:py-5 w-16 h-auto md:w-20 lg:w-24 mx-auto sm:mx-0 text-gray-500"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="-4.126838974812941 0.900767442746961 939.436838974813 230.18142889845947"
             width="2500"
@@ -37,14 +37,14 @@ const Brand = () => {
           </svg>
 
           <svg
-            class="py-3 lg:py-5 w-16 h-auto md:w-20 lg:w-24 mx-auto sm:mx-0 text-gray-500"
+            className="py-3 lg:py-5 w-16 h-auto md:w-20 lg:w-24 mx-auto sm:mx-0 text-gray-500"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 2428 1002"
           >
             <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
+              fillRule="evenodd"
+              clipRule="evenodd"
               d="M311.5 389.8h191.8l67 117.5 77.8-117.5h178.3L682.7 590.7l154 220.7H648.1l-77.8-135.8-91.7 135.8h-175l153.2-220.7-145.3-200.9Z"
               fill="currentColor"
             />
@@ -69,7 +69,7 @@ const Brand = () => {
           </svg>
 
           <svg
-            class="py-3 lg:py-5 w-16 h-auto md:w-20 lg:w-24 mx-auto sm:mx-0 text-gray-500"
+            className="py-3 lg:py-5 w-16 h-auto md:w-20 lg:w-24 mx-auto sm:mx-0 text-gray-500"
             viewBox="0 -8.881784197001252e-16 267.51517722360785 65.24679557585003"
             xmlns="http://www.w3.org/2000/svg"
             width="2500"
