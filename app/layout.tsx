@@ -1,8 +1,9 @@
 // import { Inter } from "next/font/google";
 import "./globals.css";
-import PrelineScript from "./components/PrelineScript";
+// import PrelineScript from "./components/PrelineScript";
 import React from "react";
 
+import PrelineScript from "./components/PrelineScript";
 // const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -19,7 +20,7 @@ export default function RootLayout({ children }) {
       {/* <link rel="icon" href="/favicon.ico" sizes="any" /> */}
       <body>
         {children}
-        <PrelineScript />
+       <PrelineScript />
       </body>
     </html>
   );

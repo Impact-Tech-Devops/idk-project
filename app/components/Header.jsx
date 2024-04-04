@@ -1,9 +1,13 @@
 "use client";
 
+import { useEffect } from 'react';
 import Link from "next/link";
 import logo from '/app/assets/favicon.png';
 
 const Header = () => {
+  useEffect(() => {
+    import('preline')
+  }, [])
   return (
     <div>
       {/*  HEADER */}
@@ -64,12 +68,12 @@ const Header = () => {
               >
                 Home
               </Link>
-              <a
+              <Link
                 className="font-medium text-black hover:text-gray-500 sm:py-6 "
                 href="/about"
               >
                 About
-              </a>
+              </Link>
               <Link
                 className="font-medium text-black hover:text-gray-500 sm:py-6"
                 href="/services"
