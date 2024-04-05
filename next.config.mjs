@@ -1,8 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    images: {
-        domains: ['localhost', 'res.cloudinary.com']
-      }
+  output: 'export',
+
+  // images: {
+  //   unoptimized: true
+  // },
+  // distDir: 'build'
 };
+
+
 
 export default nextConfig;
