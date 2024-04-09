@@ -8,123 +8,24 @@ const Page = () => {
     <div>
       <Header />
       <main>
-        <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-          <div className="lg:grid lg:grid-cols-12 lg:gap-16 lg:items-center">
-            <div className="lg:col-span-7">
-              <div className="grid grid-cols-12 gap-2 sm:gap-6 items-center lg:-translate-x-10">
-                <div className="col-span-4">
-                  <img
-                    className="rounded-xl"
-                    src="https://images.unsplash.com/photo-1606868306217-dbf5046868d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1981&q=80"
-                    alt="Image Description"
-                  />
-                </div>
-
-                <div className="col-span-3">
-                  <img
-                    className="rounded-xl"
-                    src="https://images.unsplash.com/photo-1605629921711-2f6b00c6bbf4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80"
-                    alt="Image Description"
-                  />
-                </div>
-
-                <div className="col-span-5">
-                  <img
-                    className="rounded-xl"
-                    src="https://images.unsplash.com/photo-1600194992440-50b26e0a0309?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80"
-                    alt="Image Description"
-                  />
-                </div>
-              </div>
-            </div>
-
-            <div className="mt-5 sm:mt-10 lg:mt-0 lg:col-span-5">
-              <div className="space-y-6 sm:space-y-8">
-                <div className="space-y-2 md:space-y-4">
-                  <h2 className="font-bold text-3xl lg:text-4xl text-gray-800">
-                    Collaborative tools to design user experience
-                  </h2>
-                  <p className="text-gray-500">
-                    Use our tools to explore your ideas and make your vision
-                    come true. Then share your work easily.
-                  </p>
-                </div>
-
-                <ul role="list" className="space-y-2 sm:space-y-4">
-                  <li className="flex space-x-3">
-                    <span className="mt-0.5 size-5 flex justify-center items-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
-                      <svg
-                        className="flex-shrink-0 size-3.5"
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      >
-                        <polyline points="20 6 9 17 4 12" />
-                      </svg>
-                    </span>
-
-                    <span className="text-sm sm:text-base text-gray-500">
-                      <span className="font-bold">Less routine</span> – more
-                      creativity
-                    </span>
-                  </li>
-
-                  <li className="flex space-x-3">
-                    <span className="mt-0.5 size-5 flex justify-center items-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
-                      <svg
-                        className="flex-shrink-0 size-3.5"
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      >
-                        <polyline points="20 6 9 17 4 12" />
-                      </svg>
-                    </span>
-
-                    <span className="text-sm sm:text-base text-gray-500">
-                      Hundreds of thousands saved
-                    </span>
-                  </li>
-
-                  <li className="flex space-x-3">
-                    <span className="mt-0.5 size-5 flex justify-center items-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
-                      <svg
-                        className="flex-shrink-0 size-3.5"
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      >
-                        <polyline points="20 6 9 17 4 12" />
-                      </svg>
-                    </span>
-
-                    <span className="text-sm sm:text-base text-gray-800">
-                      Scale budgets{" "}
-                      <span className="font-bold">efficiently</span>
-                    </span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
+        <div
+          className="flex flex-1 w-full flex-col items-center justify-center text-center px-4 py-20 bg-gradient-to-r from-green-50/50 via-teal-50 to-green-50/50 ">
+          
+          <h1
+            className="mx-auto max-w-4xl font-display text-5xl font-bold tracking-normal text-white-300  sm:text-7xl">
+           Elevate Your Business
+            <span className="relative whitespace-nowrap text-white-600 "> with Our</span>
+            <span className="relative whitespace-nowrap text-red-500 ">
+              <svg aria-hidden="true" viewBox="0 0 418 42" className="absolute top-2/3 left-0 h-[0.58em] w-full fill-red-500 " preserveAspectRatio="none">
+                <path d="M203.371.916c-26.013-2.078-76.686 1.963-124.73 9.946L67.3 12.749C35.421 18.062 18.2 21.766 6.004 25.934 1.244 27.561.828 27.778.874 28.61c.07 1.214.828 1.121 9.595-1.176 9.072-2.377 17.15-3.92 39.246-7.496C123.565 7.986 157.869 4.492 195.942 5.046c7.461.108 19.25 1.696 19.17 2.582-.107 1.183-7.874 4.31-25.75 10.366-21.992 7.45-35.43 12.534-36.701 13.884-2.173 2.308-.202 4.407 4.442 4.734 2.654.187 3.263.157 15.593-.780 35.401-2.686 57.944-3.488 88.365-3.143 46.327.526 75.721 2.23 130.788 7.584 19.787 1.924 20.814 1.98 24.557 1.332l.066-.011c1.201-.203 1.53-1.825.399-2.335-2.911-1.31-4.893-1.604-22.048-3.261-57.509-5.556-87.871-7.36-132.059-7.842-23.239-.254-33.617-.116-50.627.674-11.629.540-42.371 2.494-46.696 2.967-2.359.259 8.133-3.625 26.504-9.810 23.239-7.825 27.934-10.149 28.304-14.005 .417-4.348-3.529-6-16.878-7.066Z"></path>
+              </svg>
+              <span className="relative"> Services</span>
+            </span>
+          </h1>
+          <h2 className="mx-auto mt-12 max-w-xl text-lg sm:text-white-400 text-white-500 leading-7">
+          Unlock the potential of your business with our comprehensive range of services. From digital marketing to web development, our tailored solutions are designed to propel your success. Partner with us and take your business to new heights.
+          </h2>
+          
         </div>
 
         <div className="relative overflow-hidden bg-slate-100/50 pt-16 pb-32 space-y-24  text-black">
@@ -154,7 +55,7 @@ const Page = () => {
 
                   <div className="mt-6">
                     <h2 className="text-3xl font-bold tracking-tight text-black">
-                    Skills Training and Entrepreneurship Development:
+                      Skills Training and Entrepreneurship Development:
                     </h2>
                     <p className="mt-4 text-lg text-gray-600">
                       The AI product utilizes advanced NLP algorithms to
@@ -212,7 +113,7 @@ const Page = () => {
                   </div>
                   <div className="mt-6">
                     <h2 className="text-3xl font-bold tracking-tight text-black">
-                     Capacity Building /Leadership and Management Development. 
+                      Capacity Building /Leadership and Management Development.
 
                     </h2>
                     <p className="mt-4 text-lg text-gray-600">
@@ -273,7 +174,7 @@ const Page = () => {
                   </div>
                   <div className="mt-6">
                     <h2 className="text-3xl font-bold tracking-tight text-black">
-                    ICT Training & Computer-Based Testing Application Design and Administration.
+                      ICT Training & Computer-Based Testing Application Design and Administration.
 
                     </h2>
                     <p className="mt-4 text-lg text-gray-600">
@@ -332,7 +233,7 @@ const Page = () => {
                   </div>
                   <div className="mt-6">
                     <h2 className="text-3xl font-bold tracking-tight text-black">
-                    Teacher and Schools Development.
+                      Teacher and Schools Development.
 
                     </h2>
                     <p className="mt-4 text-lg text-gray-600">
@@ -393,7 +294,7 @@ const Page = () => {
                   </div>
                   <div className="mt-6">
                     <h2 className="text-3xl font-bold tracking-tight text-black">
-                    International Education and Global Learning Services.
+                      International Education and Global Learning Services.
 
                     </h2>
                     <p className="mt-4 text-lg text-gray-600">
@@ -452,7 +353,7 @@ const Page = () => {
                   </div>
                   <div className="mt-6">
                     <h2 className="text-3xl font-bold tracking-tight text-black">
-                    Policy Studies/ Development Research.
+                      Policy Studies/ Development Research.
 
                     </h2>
                     <p className="mt-4 text-lg text-gray-600">
@@ -513,7 +414,7 @@ const Page = () => {
                   </div>
                   <div className="mt-6">
                     <h2 className="text-3xl font-bold tracking-tight text-black">
-                    HR Recruitment/Employment Services.
+                      HR Recruitment/Employment Services.
 
                     </h2>
                     <p className="mt-4 text-lg text-gray-600">
@@ -540,7 +441,7 @@ const Page = () => {
                     height="485"
                     className="w-full rounded-xl shadow-2xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
                     style={{ color: "white", opacity: 0.5 }}
-                    src="https://img.freepik.com/free-photo/graduation-cap-earth-globe-arrangement_23-2148721284.jpg?w=740"
+                    src="https://img.freepik.com/free-photo/man-introducing-himself-employers-office-job-interview_23-2149034559.jpg?t=st=1712674369~exp=1712677969~hmac=7c24e8e59e4ed0cb175b95fa0f3558c8b77062e89e7c9e502aa6b33fefa427f8&w=740"
                   />
                 </div>
               </div>
@@ -572,7 +473,7 @@ const Page = () => {
                   </div>
                   <div className="mt-6">
                     <h2 className="text-3xl font-bold tracking-tight text-black">
-                    Organizing Conferences, Fairs and schools Competition
+                      Organizing Conferences, Fairs and schools Competition
 
                     </h2>
                     <p className="mt-4 text-lg text-gray-600">
@@ -601,7 +502,7 @@ const Page = () => {
                     height="486"
                     className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
                     style={{ color: "white", opacity: 0.5 }}
-                    src="https://images.unsplash.com/photo-1599134842279-fe807d23316e"
+                    src="https://img.freepik.com/free-photo/business-executives-participating-business-meeting_107420-63837.jpg?t=st=1712674528~exp=1712678128~hmac=f3e7b12d0cbcff27ce60a0b3ca2da0ac9b8046cc83425ad9c9ac8f31709a7b2b&w=740"
                   />
                 </div>
               </div>
@@ -633,7 +534,7 @@ const Page = () => {
                   </div>
                   <div className="mt-6">
                     <h2 className="text-3xl font-bold tracking-tight text-black">
-                    IDK Learning Centre Facilities
+                      IDK Learning Centre Facilities
 
                     </h2>
                     <p className="mt-4 text-lg text-gray-600">
@@ -667,6 +568,7 @@ const Page = () => {
             </div>
           </div>
         </div>
+
       </main>
       <Footer />
     </div>

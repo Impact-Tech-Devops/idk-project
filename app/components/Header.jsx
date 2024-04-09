@@ -59,27 +59,27 @@ const Header = () => {
           >
             <div className="flex flex-col gap-y-4 gap-x-0 mt-5 sm:flex-row sm:items-center sm:justify-end sm:gap-y-0 sm:gap-x-7 sm:mt-0 sm:ps-7">
               <Link
-                className="font-medium text-red-700 sm:py-6 dark:text-red-600"
+                className="font-medium text-red-700 hover:text-gray-500 sm:py-6 dark:text-red-600"
                 href="/"
                 aria-current="page"
               >
                 Home
               </Link>
               <Link
-                className="font-medium text-black hover:text-gray-500 sm:py-6 "
+                className="font-medium text-red-700 hover:text-gray-500 sm:py-6 "
                 href="/about"
               >
                 About
               </Link>
               <Link
-                className="font-medium text-black hover:text-gray-500 sm:py-6"
+                className="font-medium text-red-700 hover:text-gray-500 sm:py-6"
                 href="/services"
               >
                 Services
               </Link>
               
               <Link
-                className="flex items-center gap-x-2 font-medium text-black hover:text-red-700 sm:border-s sm:border-gray-300 sm:my-6 sm:ps-6 "
+                className="flex items-center gap-x-2 font-medium text-red-700 hover:text-red-700 sm:border-s sm:border-gray-300 sm:my-6 sm:ps-6 "
                 href="/contact"
               >
                 <svg
