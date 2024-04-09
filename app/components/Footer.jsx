@@ -18,12 +18,11 @@ const Footer = () => {
       
 
       <div className="col-span-1">
-        <h4 className="font-semibold text-gray-100">Product</h4>
+        <h4 className="font-semibold text-gray-100">Other Links</h4>
 
         <div className="mt-3 grid space-y-3">
-          <p><a className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="#">Trainings</a></p>
-          <p><a className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="#">Coaching</a></p>
-          <p><a className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="#">Workspace</a></p>
+        <p><a className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="#">Terms and Condition</a></p>
+          <p><a className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="#">Privacy Policy</a></p> 
         </div>
       </div>
       
@@ -35,8 +34,7 @@ const Footer = () => {
           <p><a className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="#">About us</a></p>
           <p><a className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="#">Services</a></p>
           <p><a className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="#">Contact Us</a> </p>
-          <p><a className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="#">Terms and Condition</a></p>
-          <p><a className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="#">Privacy Policy</a></p>
+          
         </div>
       </div>
       

@@ -5,10 +5,7 @@ import Link from "next/link";
 import logo from '/app/assets/favicon.png';
 
 const Header = () => {
-  useEffect(() => {
-    import('preline')
-  }, [])
-  return (
+   return (
     <div>
       {/*  HEADER */}
       <header className="sticky top-0 z-50 flex flex-wrap sm:justify-start sm:flex-nowrap w-full bg-gray-50 border-b border-gray-200 text-sm py-3 sm:py-0 shadow-lg ">
