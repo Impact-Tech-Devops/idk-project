@@ -81,7 +81,7 @@ const Page = () => {
                     height="486"
                     className="w-full rounded-xl shadow-2xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
                     style={{ color: "white", opacity: 0.5 }}
-                    src="https://img.freepik.com/free-photo/group-afro-americans-working-together_1303-8983.jpg?w=740"
+                    src="/images/5.jpg"
                   />
                 </div>
               </div>
@@ -142,7 +142,7 @@ const Page = () => {
                     height="486"
                     className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
                     style={{ color: "white", opacity: 0.5 }}
-                    src="https://img.freepik.com/free-photo/golden-chess-queen-shines-blurred-board_157027-4439.jpg?w=740"
+                    src="/images/6.jpg"
                   />
                 </div>
               </div>
@@ -201,7 +201,7 @@ const Page = () => {
                     height="485"
                     className="w-full rounded-xl shadow-2xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
                     style={{ color: "white", opacity: 0.5 }}
-                    src="https://img.freepik.com/free-photo/instructor-helping-students-computer-class_74855-2020.jpg?w=740"
+                    src="/images/1.jpg"
                   />
                 </div>
               </div>
@@ -262,7 +262,7 @@ const Page = () => {
                     height="486"
                     className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
                     style={{ color: "white", opacity: 0.5 }}
-                    src="https://img.freepik.com/free-photo/teamwork-environment-project_23-2148894028.jpg?w=826"
+                    src="/images/2.jpg"
                   />
                 </div>
               </div>
@@ -441,7 +441,7 @@ const Page = () => {
                     height="485"
                     className="w-full rounded-xl shadow-2xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
                     style={{ color: "white", opacity: 0.5 }}
-                    src="https://img.freepik.com/free-photo/man-introducing-himself-employers-office-job-interview_23-2149034559.jpg?t=st=1712674369~exp=1712677969~hmac=7c24e8e59e4ed0cb175b95fa0f3558c8b77062e89e7c9e502aa6b33fefa427f8&w=740"
+                    src="/images/8.jpg"
                   />
                 </div>
               </div>
@@ -502,7 +502,7 @@ const Page = () => {
                     height="486"
                     className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
                     style={{ color: "white", opacity: 0.5 }}
-                    src="https://img.freepik.com/free-photo/business-executives-participating-business-meeting_107420-63837.jpg?t=st=1712674528~exp=1712678128~hmac=f3e7b12d0cbcff27ce60a0b3ca2da0ac9b8046cc83425ad9c9ac8f31709a7b2b&w=740"
+                    src="/images/10.jpg"
                   />
                 </div>
               </div>
@@ -561,7 +561,7 @@ const Page = () => {
                     height="485"
                     className="w-full rounded-xl shadow-2xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
                     style={{ color: "white", opacity: 0.5 }}
-                    src="https://img.freepik.com/free-photo/room-interior-design_23-2148899444.jpg?w=740"
+                    src="/images/9.jpg"
                   />
                 </div>
               </div>

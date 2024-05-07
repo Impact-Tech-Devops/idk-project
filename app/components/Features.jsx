@@ -4,7 +4,7 @@ const Features = () => {
   return (
     <div>
       <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto bg-gray-100/70">
-        
+
         <div className="min-h-screen">
           <div className="max-w-7xl mx-auto h-max px-6 md:px-12 xl:px-6">
             <div className="md:w-2/3 lg:w-1/2">
@@ -49,7 +49,7 @@ const Features = () => {
                   </svg>
                   <div className="space-y-2">
                     <h5 className="text-xl font-semibold text-white transition">
-                    IDK Learning Centre Facilities.
+                      IDK Learning Centre Facilities.
                     </h5>
                     <p className="text-gray-300">
                       We will have discussions on the requirements to ensure
@@ -80,7 +80,7 @@ const Features = () => {
                   </svg>
                   <div className="space-y-2">
                     <h5 className="text-xl font-semibold text-white transition group-hover:text-secondary">
-                    Skills Training and Entrepreneurship Development.
+                      Skills Training and Entrepreneurship Development.
 
                     </h5>
                     <p className="text-gray-300">
@@ -111,7 +111,7 @@ const Features = () => {
                   </svg>
                   <div className="space-y-2">
                     <h5 className="text-xl font-semibold text-white transition group-hover:text-secondary">
-                    Teacher and Schools Development.
+                      Teacher and Schools Development.
 
                     </h5>
                     <p className="text-gray-300">
@@ -131,7 +131,7 @@ const Features = () => {
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     color="white"
-                    style={{  color: 'rgba(255, 0, 0, 0.95)' }}
+                    style={{ color: 'rgba(255, 0, 0, 0.95)' }}
                     height="50"
                     width="50"
                     xmlns="http://www.w3.org/2000/svg"
@@ -143,9 +143,9 @@ const Features = () => {
                   </svg>
                   <div className="space-y-2">
                     <h5 className="text-xl font-semibold text-white transition group-hover:text-secondary">
-                    Policy Studies/ Development Research.
+                      Policy Studies/ Development Research.
                     </h5>
-                    <p class="text-gray-300">
+                    <p className="text-gray-300">
                       We love Celebrations. We will celebrate your launch on our
                       Social Profiles.
                     </p>
@@ -153,10 +153,10 @@ const Features = () => {
                 </div>
               </div>
             </div>
-<div className="justify-center relative my-4 align-middle flex">
-<a href="/services" className="btn bg-red-600 rounded hover:bg-red-500 hover:animate-pulse px-2 py-3 text-center text-white font-mono font-semibold">Learn More</a>
+            <div className="justify-center relative my-4 align-middle flex">
+              <a href="/services" className="btn bg-red-600 rounded-lg hover:bg-red-500 hover:animate-pulse px-2 py-3 text-center text-white font-semibold">Learn More</a>
 
-</div>
+            </div>
           </div>
         </div>
       </div>

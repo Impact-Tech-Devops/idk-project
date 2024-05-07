@@ -9,26 +9,17 @@ import Brand from "./components/Brand";
 import Gallery from "./components/Gallery";
 import Events from "./components/Events";
 
-// import dynamic from "next/dynamic";
-// const HeatmapChart = dynamic(
-//   ()=> import("components/common/HeatmapChart"),
-//   {
-//     ssr : false,
-//   }
-// );
-
-
 export default function Home() {
   return (
     <>
       <Header />
       <main>
         <Hero/>
-        <Brand/>
+        {/* <Brand/> */}
         <Features/>
         <Gallery/>
         <Faq/>
-        <Events/>
+        {/* <Events/> */}
         <Contact/>
       </main>
       <Footer />

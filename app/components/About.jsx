@@ -5,7 +5,7 @@ const About = () => {
  <div className="sm:flex items-center max-w-screen-xl">
         <div className="sm:w-1/2 p-10">
           <div className="image object-center text-center">
-            <img src="/images/about-img.png" />
+            <img className='rounded shadow-xl' src="/images/7.jpg" />
           </div>
         </div>
         <div className="sm:w-1/2 p-5">
@@ -80,7 +80,7 @@ const About = () => {
                 </Link>
 
               </div>
-            </div><img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHw4fHxjb21wdXRlcnxlbnwwfDB8fHwxNjkxODE2NjY3fDA&ixlib=rb-4.0.3&q=80&w=1080" alt="Product screenshot" className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0" width="2432" height="1442" />
+            </div><img src="/images/12.jpg" alt="About Image" className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0" width="2432" height="1442" />
           </div>
         </div>
       </section>

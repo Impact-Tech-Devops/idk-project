@@ -20,7 +20,7 @@ const Faq = () => {
               id="hs-basic-with-title-and-arrow-stretched-heading-one"
             >
               <button
-                className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500  "
+                className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500"
                 aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-one"
               >
                 Can I cancel at anytime?

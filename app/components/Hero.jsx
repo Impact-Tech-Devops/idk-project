@@ -16,7 +16,7 @@ const Hero = () => {
           </div>
 
           <div className="mt-10 relative max-w-5xl mx-auto">
-            <div className="w-full object-cover h-96 sm:h-[480px] bg-[url('https://images.unsplash.com/photo-1606868306217-dbf5046868d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1981&q=80')] bg-no-repeat bg-center bg-cover rounded-xl"></div>
+            <div className="w-full object-cover h-96 sm:h-[480px] bg-[url('/images/4.jpg')] bg-no-repeat bg-center bg-cover rounded-xl"></div>
 
             <div className="absolute inset-0 size-full">
               <div className="flex flex-col justify-center items-center size-full">
