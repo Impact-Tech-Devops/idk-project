@@ -22,7 +22,7 @@ const Hero = () => {
               <div className="flex flex-col justify-center items-center size-full">
                 <a
                   className="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-semibold rounded-full border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-red-500 dark:border-red-600 dark:text-white dark:hover:bg-red-700 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-red-600"
-                  href="#"
+                  href="/about"
                 >
                   <svg
                     className="flex-shrink-0 size-4"
@@ -38,7 +38,7 @@ const Hero = () => {
                   >
                     <polygon points="5 3 19 12 5 21 5 3" />
                   </svg>
-                  Get Started
+                  Learn More
                 </a>
               </div>
             </div>
