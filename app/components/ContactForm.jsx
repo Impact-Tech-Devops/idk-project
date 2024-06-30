@@ -2,7 +2,7 @@
 
 const Contact = () => {
   return (
-    <div>
+    <div id="form" className="h-100vh bg-slate-100/50">
       <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
         <div className="max-w-xl mx-auto">
           <div className="text-center">
@@ -15,8 +15,8 @@ const Contact = () => {
           </div>
         </div>
 
-        <div className="mt-12 max-w-lg mx-auto shadow-md">
-          <div className="flex flex-col border rounded-xl p-4 sm:p-6 lg:p-8 ">
+        <div className="mt-12 max-w-lg mx-auto shadow-md rounded-xl bg-white">
+          <div className="flex flex-col border rounded-xl p-4 sm:p-6 lg:p-8">
             <h2 className="mb-8 text-xl font-semibold text-gray-800 ">
               Fill in the form
             </h2>
@@ -107,9 +107,9 @@ const Contact = () => {
               <div className="mt-6 grid">
                 <button
                   type="submit"
-                  className="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-red-600 text-white hover:bg-red-700 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+                  className="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-full border border-transparent bg-red-600 text-white hover:bg-red-700 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
                 >
-                  Send Message
+                  Contact Us
                 </button>
               </div>
 

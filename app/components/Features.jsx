@@ -154,7 +154,7 @@ const Features = () => {
               </div>
             </div>
             <div className="justify-center relative my-4 align-middle flex">
-              <a href="/services" className="btn bg-red-600 rounded-lg hover:bg-red-500 hover:animate-pulse px-2 py-3 text-center text-white font-semibold">Learn More</a>
+              <a href="/services" className="btn bg-red-600 rounded-full hover:bg-red-500 hover:animate-pulse px-3 py-3 text-center text-white font-semibold">Learn More</a>
 
             </div>
           </div>

@@ -64,7 +64,7 @@ const Page = () => {
                     </p>
                     <div className="mt-6">
                       <a
-                        className="inline-flex rounded-lg bg-red-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-red-600 hover:bg-red-700 hover:ring-red-700"
+                        className="inline-flex rounded-full bg-red-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-red-600 hover:bg-red-700 hover:ring-red-700"
                         href="/contact"
                       >
                         Get In Touch
@@ -124,7 +124,7 @@ const Page = () => {
                     </p>
                     <div className="mt-6">
                       <a
-                        className="inline-flex rounded-lg bg-red-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-red-600 hover:bg-red-700 hover:ring-red-700"
+                        className="inline-flex rounded-full bg-red-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-red-600 hover:bg-red-700 hover:ring-red-700"
                         href="/contact"
                       >
                         Get In Touch
@@ -184,7 +184,7 @@ const Page = () => {
                     </p>
                     <div className="mt-6">
                       <a
-                        className="inline-flex rounded-lg bg-red-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-red-600 hover:bg-red-700 hover:ring-red-700"
+                        className="inline-flex rounded-full bg-red-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-red-600 hover:bg-red-700 hover:ring-red-700"
                         href="/contact"
                       >
                         Get In Touch
@@ -244,7 +244,7 @@ const Page = () => {
                     </p>
                     <div className="mt-6">
                       <a
-                        className="inline-flex rounded-lg bg-red-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-red-600 hover:bg-red-700 hover:ring-red-700"
+                        className="inline-flex rounded-full bg-red-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-red-600 hover:bg-red-700 hover:ring-red-700"
                         href="/contact"
                       >
                         Get In Touch
@@ -304,7 +304,7 @@ const Page = () => {
                     </p>
                     <div className="mt-6">
                       <a
-                        className="inline-flex rounded-lg bg-red-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-red-600 hover:bg-red-700 hover:ring-red-700"
+                        className="inline-flex rounded-full bg-red-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-red-600 hover:bg-red-700 hover:ring-red-700"
                         href="/contact"
                       >
                         Get In Touch
@@ -364,7 +364,7 @@ const Page = () => {
                     </p>
                     <div className="mt-6">
                       <a
-                        className="inline-flex rounded-lg bg-red-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-red-600 hover:bg-red-700 hover:ring-red-700"
+                        className="inline-flex rounded-full bg-red-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-red-600 hover:bg-red-700 hover:ring-red-700"
                         href="/contact"
                       >
                         Get In Touch
@@ -424,7 +424,7 @@ const Page = () => {
                     </p>
                     <div className="mt-6">
                       <a
-                        className="inline-flex rounded-lg bg-red-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-red-600 hover:bg-red-700 hover:ring-red-700"
+                        className="inline-flex rounded-full bg-red-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-red-600 hover:bg-red-700 hover:ring-red-700"
                         href="/contact"
                       >
                         Get In Touch
@@ -484,7 +484,7 @@ const Page = () => {
                     </p>
                     <div className="mt-6">
                       <a
-                        className="inline-flex rounded-lg bg-red-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-red-600 hover:bg-red-700 hover:ring-red-700"
+                        className="inline-flex rounded-full bg-red-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-red-600 hover:bg-red-700 hover:ring-red-700"
                         href="/contact"
                       >
                         Get In Touch
@@ -544,7 +544,7 @@ const Page = () => {
                     </p>
                     <div className="mt-6">
                       <a
-                        className="inline-flex rounded-lg bg-red-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-red-600 hover:bg-red-700 hover:ring-red-700"
+                        className="inline-flex rounded-full bg-red-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-red-600 hover:bg-red-700 hover:ring-red-700"
                         href="/contact"
                       >
                         Get In Touch

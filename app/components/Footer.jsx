@@ -10,7 +10,10 @@ const Footer = () => {
 
         <div className="text-center">
           <div>
-            <a className="flex-none text-xl font-semibold text-white text-center text-medium" href="/" aria-label="Brand">IDK</a>
+            <a className="flex-none text-xl font-semibold text-white text-center text-medium" href="/" aria-label="Brand">
+            <img src="/images/favicon.ico" className="w-auto h-10 mx-auto" alt="idk"/>
+
+            </a>
           </div>
 
 
