@@ -10,10 +10,12 @@
     "export": "next export"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.3.3",
     "next": "14.1.4",
     "preline": "^2.0.3",
     "react": "^18",
     "react-dom": "^18",
+    "react-toastify": "^10.0.5",
     "sharp": "^0.33.3"
   },
   "devDependencies": {

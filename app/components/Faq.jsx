@@ -6,7 +6,7 @@ const Faq = () => {
       <div className="bg-slate-100/50 max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto mt-5">
         <div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
           <h2 className="text-2xl font-bold md:text-4xl md:leading-tight ">
-                Frequently Asked Questions
+            Frequently Asked Questions
           </h2>
           <p className="mt-1 text-gray-600 ">
             Answers to the most frequently asked questions.
@@ -23,7 +23,7 @@ const Faq = () => {
                 className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500"
                 aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-one"
               >
-                Can I cancel at anytime?
+                What is IDK Learning Centre?
                 <svg
                   className="hs-accordion-active:hidden block flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
                   xmlns="http://www.w3.org/2000/svg"
@@ -59,9 +59,7 @@ const Faq = () => {
                 aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-one"
               >
                 <p className="text-gray-800 ">
-                  Yes, you can cancel anytime no questions are asked while you
-                  cancel but we would highly appreciate if you will give us some
-                  feedback.
+                  IDK Learning Centre, also known as Integral Development Konsult (IDK), is a multi-disciplinary development, capacity building, placements, and performance consulting firm with expertise in skills training, entrepreneurship, and innovative business development services.
                 </p>
               </div>
             </div>
@@ -74,7 +72,7 @@ const Faq = () => {
                 className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 "
                 aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-two"
               >
-                My team has credits. How do we use them?
+                What is IDK's mission?
                 <svg
                   className="hs-accordion-active:hidden block flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 "
                   xmlns="http://www.w3.org/2000/svg"
@@ -110,8 +108,7 @@ const Faq = () => {
                 aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-two"
               >
                 <p className="text-gray-800 ">
-                  Once your team signs up for a subscription plan. This is where
-                  we sit down, grab a cup of coffee and dial in the details.
+                  Our mission is to help clients achieve strategic business needs and organizational excellence by providing leading-edge superior learning programs locally and internationally with integrity and best practice delivery.
                 </p>
               </div>
             </div>
@@ -124,7 +121,7 @@ const Faq = () => {
                 className="hs-accordion-toggle  group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500  "
                 aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-three"
               >
-                How does Preline's pricing work?
+                What is the vision of IDK?
                 <svg
                   className="hs-accordion-active:hidden block flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 "
                   xmlns="http://www.w3.org/2000/svg"
@@ -160,8 +157,7 @@ const Faq = () => {
                 aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-three"
               >
                 <p className="text-gray-800 ">
-                  Our subscriptions are tiered. Understanding the task at hand
-                  and ironing out the wrinkles is key.
+                  Our vision is to be the foremost reliable committed learning and business solutions provider in Nigeria with strong partnering networks globally.
                 </p>
               </div>
             </div>
@@ -174,7 +170,7 @@ const Faq = () => {
                 className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500  "
                 aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-four"
               >
-                How secure is Preline?
+                What services does IDK offer?
                 <svg
                   className="hs-accordion-active:hidden block flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 "
                   xmlns="http://www.w3.org/2000/svg"
@@ -209,10 +205,16 @@ const Faq = () => {
                 className="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
                 aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-four"
               >
-                <p className="text-gray-800 ">
-                  Protecting the data you trust to Preline is our first
-                  priority. This part is really crucial in keeping the project
-                  in line to completion.
+                <p className="text-gray-800">
+                 
+                  <p className="mb-5 text-lg">IDK offers a range of services including:</p>
+                  <ul className="list-disc list-inside space-y-2">
+                    <li>Skills training and entrepreneurship development</li>
+                    <li>Innovative business development services</li>
+                    <li>Policy research and ICT training</li>
+                    <li>Computer-based tests, designs, and administration</li>
+                    <li>Creative educational programs and international education and global learning services</li>
+                  </ul>
                 </p>
               </div>
             </div>
@@ -225,7 +227,7 @@ const Faq = () => {
                 className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 "
                 aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-five"
               >
-                How do I get access to a theme I purchased?
+                How can I contact IDK Learning Centre?
                 <svg
                   className="hs-accordion-active:hidden block flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 "
                   xmlns="http://www.w3.org/2000/svg"
@@ -261,12 +263,13 @@ const Faq = () => {
                 aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-five"
               >
                 <p className="text-gray-800 ">
-                  If you lose the link for a theme you purchased, don't panic!
-                  We've got you covered. You can login to your account, tap your
-                  avatar in the upper right corner, and tap Purchases. If you
-                  didn't create a login or can't remember the information, you
-                  can use our handy Redownload page, just remember to use the
-                  same email you originally made your purchases with.
+                <p className="mb-5 text-lg">You can contact us via:</p>
+                  <ul className="list-disc list-inside space-y-2">
+                    <li>Address: 18/20 Enugu-Onitsha Express Way, Awka, Anambra State, Nigeria.</li>
+                    <li>Phone: +2348096470244</li>
+                    <li>Email: info@idklearningcentre.com.ng</li>
+                    <li>Website: www.idklearningcentre.com.ng</li>
+                  </ul>
                 </p>
               </div>
             </div>
@@ -279,7 +282,7 @@ const Faq = () => {
                 className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500  "
                 aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-six"
               >
-                Upgrade License Type
+                Where is IDK Learning Centre located?
                 <svg
                   className="hs-accordion-active:hidden block flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 "
                   xmlns="http://www.w3.org/2000/svg"
@@ -315,10 +318,7 @@ const Faq = () => {
                 aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-six"
               >
                 <p className="text-gray-800 ">
-                  There may be times when you need to upgrade your license from
-                  the original type you purchased and we have a solution that
-                  ensures you can apply your original purchase cost to the new
-                  license purchase.
+                Our main office is located at 18/20 Enugu-Onitsha Express Way, Awka, Anambra State, Nigeria. We also have an Abuja Liaison Office at Efab Global Estate, Road 205, House 16.
                 </p>
               </div>
             </div>
