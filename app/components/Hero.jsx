@@ -6,12 +6,12 @@ const Hero = () => {
       <div className="relative overflow-hidden">
         <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-10">
           <div className="max-w-2xl text-center mx-auto">
-            <h1 className="block text-3xl font-bold text-gray-800 sm:text-4xl md:text-5xl ">
-              Designed for you to get more{" "}
-              <span className="text-red-600">simple</span>
+            <h1 className="block text-3xl font-bold text-gray-800 sm:text-4xl md:text-5xl">
+              Empowering Your Career and Business Growth
+              <span className="text-red-600"> with Integrity</span>
             </h1>
             <p className="mt-3 text-lg text-gray-800 dark:text-gray-400">
-              Build your business here. Take it anywhere.
+              Integral Development Konsult (IDK) is committed to career and professional development, providing cutting-edge solutions to help you achieve your strategic goals.
             </p>
           </div>
 
@@ -43,12 +43,12 @@ const Hero = () => {
               </div>
             </div>
 
-            <div className="absolute bottom-12 -start-20 -z-[1] size-48 bg-gradient-to-b from-orange-500 to-white p-px rounded-lg ">
-              <div className="bg-black/20 size-48 rounded-lg "></div>
+            <div className="absolute bottom-12 -start-20 -z-[1] size-48 bg-gradient-to-b from-orange-500 to-white p-px rounded-lg">
+              <div className="bg-black/20 size-48 rounded-lg"></div>
             </div>
 
             <div className="absolute -top-12 -end-20 -z-[1] size-48 bg-gradient-to-t from-red-600 to-orange-400 p-px rounded-full">
-              <div className="bg-black/20 size-48 rounded-full "></div>
+              <div className="bg-black/20 size-48 rounded-full"></div>
             </div>
           </div>
         </div>
